@@ -16,7 +16,7 @@ class BroadcastComponent extends Component implements Listener{
 
 	private ConfigLoader $config;
 
-	public function getInfo(): ComponentInfo{
+	public static function getInfo(): ComponentInfo{
 		return new ComponentInfo("Broadcast", "ImAMadDev", "1.0.0", "0.0.1", "Broadcast messages", "https://cdn-icons-png.flaticon.com/512/5969/5969113.png");
 	}
 
