@@ -1,7 +1,5 @@
 <?php
 
-namespace imamaddev\ultimate_essentials\component;
-
 use imamaddev\ultimate_essentials\component\Component;
 use imamaddev\ultimate_essentials\component\ComponentInfo;
 use pocketmine\event\Listener;
