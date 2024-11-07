@@ -12,7 +12,7 @@ class TestComponent extends Component implements Listener{
 
 	private ConfigLoader $config;
 
-	public function getInfo(): ComponentInfo{
+	public static function getInfo(): ComponentInfo{
 		return new ComponentInfo(
 			"Test Component",
 			"ImAMadDev",
